@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/EngineNo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F1F2"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:visibility="visible"
+    tools:context=".Two_WHEELER"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/dtofRegdPurchase"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_x="210dp"
+        android:layout_y="556dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Milo Meter"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="529dp"
+        android:text="Milo Meter"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_x="4dp"
+        android:layout_y="559dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="DtofRegd/Purchase"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="530dp"
+        android:text="Dt of Regd/Purchase"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_x="208dp"
+        android:layout_y="489dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Engine No"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/MakeModel"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_x="6dp"
+        android:layout_y="483dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Make/Model"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/ChassisNo"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_x="204dp"
+        android:layout_y="413dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Chassis No"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="0dp"
+        android:text="PRE –INSPECTION REPORT- 2 WHEELER"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="40dp"
+        android:text="Insurer Details"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/insureDetails"
+        android:layout_width="307dp"
+        android:layout_height="30dp"
+        android:layout_x="7dp"
+        android:layout_y="67dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Insurer Details"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="101dp"
+        android:text="Name of Proposer"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/NameofProposer"
+        android:layout_width="307dp"
+        android:layout_height="30dp"
+        android:layout_x="4dp"
+        android:layout_y="126dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Name of Proposer"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/timefor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="160dp"
+        android:text="Time of Inspection"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/format1"
+        android:layout_width="307dp"
+        android:layout_height="30dp"
+        android:layout_x="7dp"
+        android:layout_y="182dp"
+        android:background="@drawable/border"
+        android:ems="10"
+
+        android:hint="Time of Inspection"
+        android:inputType="time"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="219dp"
+        android:text="Date of Inspection"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/format2"
+        android:layout_width="307dp"
+        android:layout_height="30dp"
+        android:layout_x="9dp"
+        android:layout_y="244dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Date of Inspection"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="281dp"
+        android:text="Place of Inspection"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/currentAddTv"
+        android:layout_width="307dp"
+        android:layout_height="30dp"
+        android:layout_x="8dp"
+        android:layout_y="309dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Place of Inspection"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="346dp"
+        android:text="VEHICLE PARTICULARS:"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="388dp"
+        android:text="Vehicle Regd No"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="388dp"
+        android:text="Chassis No"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/VehicleRegdNo"
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_x="2dp"
+        android:layout_y="415dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="VehicleRegdNo"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="456dp"
+        android:text="Make/Model"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="456dp"
+        android:text="Engine No"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:layout_x="210dp"
+        android:layout_y="617dp"
+        android:backgroundTint="#82C5E9"
+        android:text="Next"
+        android:textColor="@color/black" />
+
+    <ImageButton
+        android:id="@+id/btnDate"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_x="141dp"
+        android:layout_y="556dp"
+        android:backgroundTint="#E8F1F2"
+        app:srcCompat="@drawable/ic_baseline_calendar_today_24" />
+</AbsoluteLayout>
+

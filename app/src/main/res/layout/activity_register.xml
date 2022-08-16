@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".register">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="User Details"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="35dp"
+        android:text="Name:"></TextView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="24dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="87dp"
+        android:text="Email:" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="78dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="135dp"
+        android:text="Phone:" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="132dp"
+        android:ems="10"
+        android:hint="Phone No."
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_x="288dp"
+        android:layout_y="32dp"
+        tools:srcCompat="@drawable/iconcar" />
+
+    <TextView
+        android:id="@+id/Surveyor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="197dp"
+        android:text="Surveyor "
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="238dp"
+        android:text="logo" />
+
+    <ImageView
+        android:id="@+id/viewImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_x="59dp"
+        android:layout_y="223dp"
+        tools:srcCompat="@drawable/iconcar" />
+
+    <Button
+        android:id="@+id/btnselect"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="234dp"
+        android:text="Select\nImage" />
+
+    <TextView
+        android:id="@+id/surNametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="339dp"
+        android:text="Surveyor Name" />
+
+    <EditText
+        android:id="@+id/surNameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="340dp"
+        android:ems="10"
+        android:hint="Surveyor Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/surtagtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="396dp"
+        android:text="TagLine" />
+
+    <EditText
+        android:id="@+id/tagLineEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="395dp"
+        android:ems="10"
+        android:hint="Tag Line"
+        android:inputType="textPersonName"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/FooterLineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="454dp"
+        android:text="FooterLine" />
+
+    <EditText
+        android:id="@+id/FooterLineEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="452dp"
+        android:ems="10"
+        android:hint="Footer Line"
+        android:inputType="textPersonName"
+        android:maxLines="3" />
+
+    <TextView
+        android:id="@+id/do_you_text"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_x="6dp"
+        android:layout_y="513dp"
+        android:text="Do you want to specify any\nspecific reference number \n for reports"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:layout_marginTop="50dp"
+        android:id="@+id/groupradio"
+        android:layout_marginLeft="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <!-- In RadioGroup create the 1 Radio Button-->
+    <!-- like this we will add some more Radio Button-->
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/false1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="266dp"
+        android:layout_y="522dp"
+        android:text="false"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/true1"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_x="181dp"
+        android:layout_y="521dp"
+        android:text="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/refid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="596dp"
+        android:text="Current Reference Number" />
+
+    <EditText
+        android:id="@+id/ReferenceNumber_edit"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="589dp"
+        android:ems="10"
+        android:hint="Reference Number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="627dp"
+        android:text="Submit" />
+</AbsoluteLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.surveyx">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SURVEYX"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".viewScreenFourWheeler"
+            android:exported="false" />
+        <activity
+            android:name=".four_wheeler3"
+            android:exported="false"
+            android:theme="@style/Theme.SURVEYX.NoActionBar" />
+        <activity
+            android:name=".four_Wheeler2"
+            android:exported="false"
+            android:theme="@style/Theme.SURVEYX.NoActionBar" />
+        <activity
+            android:name=".Four_Wheeler"
+            android:exported="false" />
+        <activity
+            android:name=".viewScreen"
+            android:exported="false"
+            android:theme="@style/Theme.SURVEYX.NoActionBar" />
+        <activity
+            android:name=".Two_wheeler4"
+            android:exported="false"
+            android:theme="@style/Theme.SURVEYX.NoActionBar" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".Two_wheeler2"
+            android:exported="false"
+            android:label="@string/title_activity_two_wheeler2"
+            android:theme="@style/Theme.SURVEYX.NoActionBar" />
+        <activity
+            android:name=".Two_WHEELER"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".glog"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".GetaddressIntentService" />
+    </application>
+
+</manifest>

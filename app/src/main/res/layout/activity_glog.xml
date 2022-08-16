@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surveyx.glog"
+    android:background="#82C5E9">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_x="0dp"
+        android:layout_y="47dp"
+        android:src="@drawable/surveyx"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_x="-7dp"
+        android:layout_y="458dp"
+        android:text="IF You Are New So Create An Account"
+        android:textAlignment="center"
+        android:textSize="20sp"></TextView>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_x="100dp"
+        android:layout_y="389dp"
+        android:textAlignment="center"
+        app:colorScheme="dark">
+
+    </com.google.android.gms.common.SignInButton>
+
+</AbsoluteLayout>

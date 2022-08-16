@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="visible"
+    tools:context=".Two_WHEELER"
+    tools:visibility="visible"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="#E8F1F2"  >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <AbsoluteLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="wrap_content"
+                android:layout_height="1700dp"
+                android:layout_y="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:layout_x="0dp"
+                    android:layout_y="0dp"
+                    android:text="INSPECTION/PART DETAILS:--"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"></TextView>
+
+                <TableLayout
+                    android:layout_width="414dp"
+                    android:layout_height="1800dp"
+                    android:layout_x="0dp"
+                    android:layout_y="20dp"
+                    android:orientation="vertical">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Roof"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/roofSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/roofDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/roofScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Bonnet"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/bonnSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/bonnDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/boonScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Lh Fender"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhFenderSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/LhFenderDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/LhFenderScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Lh Frt Door"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhFrtDoorSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/LhFrtDoorDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/LhFrtDoorScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Lh Rear Door"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhRearDoorSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/LhRearDoorDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/LhRearDoorScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Lh Qtr Panel"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhQtrPanelSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/LhQtrPanelDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/LhQtrPanelScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="  Lh Side Body"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhSideBodySound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/LhSideBodyDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/LhSideBodyScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Dicky"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/DickySound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/DickyDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/DickyScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   RhFender"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhFenderSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/RhFenderDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/RhFenderScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="   Rh Frt Door"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhFrtDoorSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/RhFrtDoorDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/RhFrtDoorScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="  Rh Rear Door"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhRearDoorSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/RhRearDoorDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/RhRearDoorScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="  Rh Qtr Panel"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhQtrPanelSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/RhQtrPanelDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/RhQtrPanelScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="  Rh Side Body"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhSideBodySound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/RhSideBodyDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/RhSideBodyScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="  Front Bumper"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/FrontBumperSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/FrontBumperDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/FrontBumperScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="157dp"
+                            android:layout_height="51dp"
+                            android:layout_column="1"
+                            android:text="  Rear Bumper"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RearBumperSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound"
+                                android:textColor="@color/black" />
+
+                            <RadioButton
+                                android:id="@+id/RearBumperDent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minEms="2"
+                                android:text="Dent" />
+
+                            <RadioButton
+                                android:id="@+id/RearBumperScratch"
+                                android:layout_width="93dp"
+                                android:layout_height="match_parent"
+                                android:text="Scratch" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Frt W/S Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/FrtWSGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/FrtWsGlassCrankbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Lh Frt Door Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhFrtDoorGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/LhFrtDoorGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Lh Rear Door Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhRearDoorGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/LhRearDoorGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Rh Frt Door Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhFrtDoorGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/RhFrtDoorGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   RhRearDoorGlass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhRearDoorGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/RhRearDoorGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Rh Qtr Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RhQtrGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/RhQtrGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Lh Qtr Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/LhQtrGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/LhQtrGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Dicky Glass"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/DickyGlassSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/DickyGlassbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Head Lamps"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/HeadLampsSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/HeadLampsbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Tail Lamps"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/TailLampsSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/TailLampsbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Tyre /Wheel"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/TyreWheelSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/TyreWheeldamage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Damaged" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Rear View Mirror"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RearViewMirrorSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/RearViewMirrorbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Dash Board/ I. Panel"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/DashBoardIPanelSound"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sound" />
+
+                            <RadioButton
+                                android:id="@+id/DashBoardIPanelbroken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Broken" />
+                        </RadioGroup>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_column="1"
+                            android:text="   Ele. Accessories"
+                            android:textColor="@color/black"></TextView>
+
+                        <EditText
+                            android:id="@+id/EleAccessories"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/border"
+                            android:ems="10"
+                            android:hint="Ele. Accessories"
+                            android:inputType="textPersonName"
+                            android:textColorHint="@color/black" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp"
+                            android:layout_column="1"
+                            android:text="   Non Ele. Accessories"
+                            android:textColor="@color/black"></TextView>
+
+                        <EditText
+                            android:id="@+id/NonEle.Accessories"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/border"
+                            android:ems="10"
+                            android:hint="Non Ele. Accessories"
+                            android:inputType="textPersonName"
+                            android:textColorHint="@color/black" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_column="1"
+                            android:text="   Recommended For Insurance"
+                            android:textColor="@color/black"></TextView>
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/RecommendedForInsuranceyes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Yes" />
+
+                            <RadioButton
+                                android:id="@+id/RecommendedForInsuranceno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No" />
+                        </RadioGroup>
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/gotot3"
+                    android:layout_width="199dp"
+                    android:layout_height="65dp"
+                    android:layout_x="125dp"
+                    android:layout_y="1600dp"
+                    android:backgroundTint="#82C5E9"
+                    android:text="Next"
+                    android:textColor="@color/black"></Button>
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+

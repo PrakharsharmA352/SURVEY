@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F1F2"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:textAlignment="center"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/GfG_full_logo"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_x="-4dp"
+        android:layout_y="103dp"
+        android:backgroundTint="#0084cc"
+        app:srcCompat="@drawable/surveyx" />
+
+    <ImageButton
+        android:id="@+id/two_wheeler"
+        android:layout_width="345dp"
+        android:layout_height="95dp"
+
+        android:layout_x="32dp"
+
+
+        android:layout_y="356dp"
+        android:backgroundTint="#82C5E9"
+        android:src="@drawable/ic_baseline_pedal_bike_24">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="417dp"
+        android:fontFamily="sans-serif"
+        android:text="Two-Wheeler"
+        android:textAlignment="center"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/four_wheeler"
+        android:layout_width="356dp"
+
+        android:layout_height="95dp"
+        android:layout_x="25dp"
+        android:layout_y="469dp"
+        android:background="#DAE8FC"
+        android:backgroundTint="#82C5E9"
+        android:rotationX="0"
+        android:src="@drawable/ic_baseline_directions_car_24"></ImageButton>
+
+    <TextView
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+
+        android:layout_x="110dp"
+        android:layout_y="533dp"
+        android:fontFamily="sans-serif"
+        android:text="Four-Wheeler"
+        android:textAlignment="center"
+        android:textSize="16sp"></TextView>
+</AbsoluteLayout>

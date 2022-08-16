@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E8F1F2"
+    android:orientation="vertical"
+    android:visibility="visible"
+
+    tools:context=".Two_wheeler4">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <!--ImageView to preview the selected image-->
+        <AbsoluteLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <AbsoluteLayout
+                android:layout_width="wrap_content"
+                android:layout_height="1067dp"
+                android:layout_x="-3dp"
+                android:layout_y="7dp">
+
+                <TextView
+                    android:layout_width="103dp"
+                    android:layout_height="wrap_content"
+                    android:layout_x="23dp"
+                    android:layout_y="279dp"
+                    android:text="Rc_Image"
+                    android:textColor="@color/black"></TextView>
+
+                <Button
+                    android:id="@+id/btnselect1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="32dp"
+                    android:layout_x="194dp"
+                    android:layout_y="260dp"
+                    android:backgroundTint="#82C5E9"
+                    android:text="OpenFile"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/my_avatar_imageview"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/btnselect"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_x="22dp"
+                    android:layout_y="318dp"
+                    android:background="@drawable/border" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="29dp"
+                    android:layout_x="15dp"
+                    android:layout_y="449dp"
+                    android:text="Chessis No Image"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"></TextView>
+
+                <Button
+                    android:id="@+id/btnselect"
+                    android:layout_width="217dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="32dp"
+                    android:layout_x="157dp"
+                    android:layout_y="443dp"
+                    android:backgroundTint="#82C5E9"
+                    android:text="OpenFile"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/viewImage"
+                    android:layout_width="240dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/btnselect"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_x="19dp"
+                    android:layout_y="518dp"
+                    android:background="@drawable/border" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_x="24dp"
+                    android:layout_y="643dp"
+                    android:text="Vehicle Images"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="217dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_x="152dp"
+                    android:layout_y="620dp"
+                    android:backgroundTint="#82C5E9"
+                    android:text="OPENFILE"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.445"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:strokeColor="@color/purple_700"></Button>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler"
+                    android:layout_width="399dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_x="4dp"
+                    android:layout_y="746dp"
+                    android:elevation="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <VideoView
+                    android:id="@+id/videoview"
+                    android:layout_width="328dp"
+                    android:layout_height="124dp"
+                    android:layout_x="21dp"
+                    android:layout_y="124dp"></VideoView>
+
+                <Button
+                    android:id="@+id/recording"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_x="24dp"
+                    android:layout_y="67dp"
+                    android:backgroundTint="#82C5E9"
+                    android:text="MakeVideo"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/playback"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_x="185dp"
+                    android:layout_y="67dp"
+                    android:backgroundTint="#82C5E9"
+                    android:text="watchVideo"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_x="262dp"
+                    android:layout_y="16dp"
+                    android:backgroundTint="#82C5E9"
+                    android:gravity="bottom"
+                    android:text="Submit"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_x="17dp"
+                    android:layout_y="669dp"
+                    android:text="5 photo required from gallary"
+                    android:textColor="@color/black" />
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </ScrollView>
+</LinearLayout>
